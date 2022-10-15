@@ -1,14 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Roboto:wght@300&display=swap');
 body {
     max-width: 1600px;
     margin: 0 auto;
     padding: 4em;
-    font-size: 18px;
+    font-size: 22px;
     text-align: center;
+    font-family: "Roboto", Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
   }
 nav a{
     text-align: center;
     color:black;
     text-decoration: none;
+    padding: 35px;
 }
 .button-box{
     text-align: center;
@@ -52,16 +57,16 @@ nav a:hover {
     text-decoration: underline;
     
 }
-.book {
+.book, .join {
     background-color: #90E0EF;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
-.join {
-    background-color: #90E0EF;
-    color: #00B4D8;
-    text-decoration: none;
-}
+
 .book:hover {
     background-color: #00B4D8;
     color: white
@@ -72,15 +77,19 @@ nav a:hover {
 }
 #background{
     background-color:#90E0EF;
-    color: white
+    color: white;
+    line-height: 1.5em;
 }
 .msg {
     background-color:#90E0EF;
-    color: white
+    color: black;
+    padding: 35px;
 }
 footer{
     background-color: #CAF0F8;
-    color: black
+    color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     text-decoration: none;
@@ -92,4 +101,37 @@ footer p a:hover{
 }
 .logo{
     width: 80px
+}
+.home-title{
+    font-family: "Confortaa",Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+.msg h2{
+    font-family: "Roboto", Helvetica, sans-serif;
+}
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+h2{
+    margin: 0;
+}
+#logo_link{
+    padding-top: 5px;
+}
+.icon{
+    padding-top: 10px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.river-card, .camping-card, .rapid-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid black;
+}
+main section img{
+    box-sizing: border-box;
 }
