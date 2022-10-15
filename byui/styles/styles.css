@@ -3,14 +3,16 @@ body {
   }
   nav {
     background-color: steelblue;
-    padding: 10px;
+    padding: 25px;
   }
   a {
     color: white;
     margin: 40px;
+    padding: 25px;
   }
   h1 {
     color: steelblue;
+    margin: 50px 0;
   }
   img {
     width: 800px;
@@ -30,4 +32,10 @@ body {
 #active {
   background-color: white;
   color: steelblue;
+}
+footer p {
+  padding: 25px 0;;
+}
+body {
+  margin: 0
 }
