@@ -213,3 +213,6 @@ nav{
     opacity: .6;
     transform: scale(1.1);
 }
+#p1,#p2,#p3,#p4{
+    text-align: center;
+}
